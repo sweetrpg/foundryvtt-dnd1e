@@ -1,0 +1,57 @@
+{
+  "id": "dnd1e",
+  "title": "Dungeons and Dragons, 1st Edition",
+  "description": "(ALPHA) Unofficial implementation of TSR/Wizards of the Coast's D&D 1st edition",
+  "version": "#{VERSION}#",
+  "library": "false",
+  "manifestPlusVersion": "1.2.0",
+  "compatibility": {
+    "minimum": 11,
+    "verified": 11,
+    "maximum": 11
+  },
+  "templateVersion": 1,
+  "authors": [
+    {
+      "name": "paulyhedral",
+      "url": "https://github.com/paulyhedral",
+      "discord": ".paulyhedral"
+    }
+  ],
+  "relationships": {
+    "systems": [],
+    "requires": []
+  },
+  "scripts": [
+    "scripts/lib/lib.js",
+    "scripts/container-query-polyfill/container-query-polyfill.modern.js"
+  ],
+  "esmodules": [
+    "scripts/module.js"
+  ],
+  "styles": [
+    "styles/module.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "packs": [],
+  "socket": true,
+  "url": "#{URL}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",
+  "license": "LICENSE",
+  "readme": "README.md",
+  "bugs": "https://github.com/SweetRPG/foundryvtt-dnd1e/issues",
+  "changelog": "https://github.com/SweetRPG/foundryvtt-dnd1e/blob/release/CHANGELOG.md",
+  "media": [
+    {
+      "type": "icon",
+      "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
+    }
+  ]
+}
